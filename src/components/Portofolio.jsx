@@ -101,7 +101,7 @@ export default function Portfolio() {
             </p>
             <div className="mt-4 flex gap-3 items-center">
                 <a
-                href="/CV_Fikri Afif Khairudin.pdf"
+                href="/CV_Fikri Afif Khairudin2.pdf"
                 className="inline-block rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md"
                 download
                 >
