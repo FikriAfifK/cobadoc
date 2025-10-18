@@ -8,6 +8,18 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title: "Multi-Store Online Menu Book Website",
+    desc: 
+    <p>
+        A website that allows culinary business owners to create professional online menus.
+        Each store can display their menu via a unique link or QR code. This system supports 
+        multiple stores, menu categories, menu images, and subscription features for stores with advanced needs.
+    </p>,
+    tech: ["Laravel", "Filament", "MySQL", "TailwindCSS/Blade"],
+    github: "https://github.com/FikriAfifK/e-menu.git",
+    live: "#"
+  },
+  {
     title: "Superstore Sales Dashboard",
     desc: 
     <p>
@@ -60,6 +72,7 @@ const projects = [
 const skills = [
   { name: "SQL", level: 85 },
   { name: "Python", level: 85 },
+  { name: "PHP", level: 80 },
   { name: "Excel", level: 80 },
   { name: "Power BI", level: 80 },
   { name: "Statistics", level: 75 }
@@ -84,7 +97,7 @@ export default function Portfolio() {
                 Fikri Afif Khairudin
             </h1>
             <p className="mt-2 text-slate-600">
-                I analyze data to turn business questions into clear, actionable insights.
+                Fresh Graduate in Informatics
             </p>
             <div className="mt-4 flex gap-3 items-center">
                 <a
@@ -128,11 +141,12 @@ export default function Portfolio() {
             >
               <h2 className="text-xl font-semibold">About Me</h2>
               <p className="mt-3 text-slate-600 leading-relaxed text-justify">
-                Hello — I'm Fikri Afif, fresh graduate in Informatics with a strong interest in data and analytics. Experienced in data preprocessing,
-                machine learning, and model evaluation through academic projects and internships. Skilled in Python, with additional 
-                experience using SQL, Excel, and data visualization tools such as Power BI. A background in machine learning provides 
-                not only technical problem-solving abilities but also curiosity to uncover meaningful insights. Eager to contribute as 
-                a Data Analyst by transforming raw data into actionable insights that drive decision-making and support business growth.
+                Hello — I'm Fikri Afif, a fresh graduate in Informatics with a strong interest in data, analytics, and web development. 
+                Experienced in data preprocessing, machine learning, and model evaluation through academic projects and internships. 
+                Skilled in Python, SQL, and Excel, with additional experience using data visualization tools such as Power BI. 
+                Alongside my data-focused background, I also enjoy building web-based solutions using technologies like HTML, 
+                CSS, and PHP. This combination of data analytics and web development enables me to create interactive dashboards 
+                and data-driven applications that bridge insights with user experience.
               </p>
 
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -141,6 +155,7 @@ export default function Portfolio() {
                   <ul className="mt-2 text-sm text-slate-600 space-y-1">
                     <li>Python Programming Language</li>
                     <li>SQL</li>
+                    <li>PHP</li>
                     <li>Microsoft Office</li>
                     <li>Power BI (Power Query, DAX)</li>
                   </ul>
